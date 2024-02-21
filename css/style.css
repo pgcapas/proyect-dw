@@ -1,0 +1,105 @@
+/* BARRA NAVEGACION */
+.brn {
+    width: 100vw;
+}
+
+.escudo {
+    width: 150px;
+}
+
+.colorb {
+    background-color: rgb(4, 4, 51);
+    height: 140px;
+}
+
+.colorib {
+    color: goldenrod;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: fuente-boca;
+}
+
+.derecha {
+    justify-content: flex-end;
+}
+
+@font-face {
+    font-family: fuente-boca;
+    src: url("../recursos/college.ttf");
+}
+
+
+.titulo {
+    padding-left: 275px;
+    color: goldenrod;
+    font-family: fuente-boca;
+    font-size: 50px;
+}
+
+/* CONTENIDO PRINCIPAL */
+.estadio {
+    width: 100vw;
+    height: 190px;
+}
+
+
+/* HOJA SOCIOS */
+.login {
+    width: 300px;
+}
+.fondo {
+    position: relative;
+    background-color: goldenrod;
+    color: rgb(4, 4, 51);
+}
+
+.estadiosoc {
+    width: 100vw;
+    height: 100vh;
+}
+
+.estadio {
+    position: relative;
+}
+
+.form-floating.login {
+    font-family: fuente-boca;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#socio {
+    top: 195%;
+}
+
+#clave {
+    top: 240%;
+}
+
+#ingresar {
+    top: 285%;
+}
+
+.titulos {
+    padding-left: 80px;
+    color: goldenrod;
+    font-family: fuente-boca;
+    font-size: 50px;
+    background-color: rgb(4, 4, 51);
+}
+
+#posiciontitulo {top:150%}
+
+
+.btn-primary { background-color:goldenrod; color: rgb(4, 4, 51); 
+    border: goldenrod; }
+
+.form-floating.logini {
+        font-size: 40px;
+        color: goldenrod;
+        background-color: rgb(4, 4, 51);
+        font-family: fuente-boca;
+        position:absolute;
+        left: 5%;
+        transform: translateX(-50%);}
