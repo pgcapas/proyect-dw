@@ -1,6 +1,6 @@
 /* BARRA NAVEGACION */
 @font-face {
-    font-family: fuente-boca;   
+    font-family: fuente-boca;
     src: url("../recursos/college.ttf");
 }
 
@@ -14,75 +14,107 @@
 }
 
 .barra {
-    width: 100%;;
+    width: 100%;
+    ;
     background-color: rgb(4, 4, 51);
-    display: flex; 
+    display: flex;
     align-items: center;
-    color: goldenrod;}
+    color: goldenrod;
+}
 
 
-    /* MEDIA QUERY */
+/* MEDIA QUERY */
 
 @media (max-width: 992px) {
-        .navbar-collapse {
-            position: absolute;
-            top: 100%; /* Coloca el menú justo debajo de la barra de navegación */
-            left: 0;
-            right: 0;
-            background-color: goldenrod; /* color de fondo */
-            z-index: 1000; /* asegura que esté por encima de otros elementos */
-            overflow-y: auto; /* permite desplazamiento vertical si el menú es demasiado largo */
-            max-height: calc(100vh - 56px); /* Limita la altura máxima al tamaño de la pantalla - la altura de la barra de navegación */
-            width: 100%; /* Ocupa todo el ancho disponible */
-            border-top: 4px solid #dee2e6; /* Agrega un borde superior para separar del contenido principal */
-        }
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        /* Coloca el menú justo debajo de la barra de navegación */
+        left: 0;
+        right: 0;
+        background-color: goldenrod;
+        /* color de fondo */
+        z-index: 1000;
+        /* asegura que esté por encima de otros elementos */
+        overflow-y: auto;
+        /* permite desplazamiento vertical si el menú es demasiado largo */
+        max-height: calc(100vh - 56px);
+        /* Limita la altura máxima al tamaño de la pantalla - la altura de la barra de navegación */
+        width: 100%;
+        /* Ocupa todo el ancho disponible */
+        border-top: 4px solid #dee2e6;
+        /* Agrega un borde superior para separar del contenido principal */
+    }
 
-.visita {
-            display: none; /* Oculta la imagen */
-        }
-.navbar-nav {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }x
-    
-.nav-item {
-            width: 100%;
-            text-align: center;
-        }
+    .visita {
+        display: none;
+        /* Oculta la imagen */
+    }
 
-.navbar-collapse .nav-link {
-            color: rgb(4, 4, 51); /* Cambia el color del texto a azul */
-        }
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.navbar-collapse .nav-link:hover {
-            color: white; background-color: rgb(4, 4, 51); }
+    x .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-collapse .nav-link {
+        color: rgb(4, 4, 51);
+        /* Cambia el color del texto a azul */
+    }
+
+    .navbar-collapse .nav-link:hover {
+        color: white;
+        background-color: rgb(4, 4, 51);
+    }
 
 
- .escudo {
-                width: 90px;
-            }
-.cabj{font-size: 20px;}
+    .escudo {
+        width: 90px;
+    }
+
+    .cabj {
+        font-size: 20px;
+    }
 
 
-        
-        }
+
+}
 
 
 /* FIN MEDIA QUERY */
 
-.navbar {background-color: rgb(4, 4, 51); font-family: fuente-boca; justify-content: space-between;}
+.navbar {
+    background-color: rgb(4, 4, 51);
+    font-family: fuente-boca;
+    justify-content: space-between;
+}
 
-.nav-link {color:goldenrod; font-size: 20px; font-weight: bolder;}
+.nav-link {
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bolder;
+}
 
-.cabj{color:goldenrod; font-size: 55px; ; padding: 20px;}
+.cabj {
+    color: goldenrod;
+    font-size: 55px;
+    ;
+    padding: 20px;
+}
 
-.navbar-toggler {background-color: goldenrod;}
+.navbar-toggler {
+    background-color: goldenrod;
+}
 
 .navbar-collapse {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 
@@ -120,6 +152,7 @@
     color: goldenrod;
     grid-area: nav
 }
+
 .grilla header {
     background-color: #2C3D55;
     color: goldenrod;
@@ -154,6 +187,7 @@
     color: goldenrod;
     grid-area: nav
 }
+
 .grilla header {
     background-color: #2C3D55;
     color: goldenrod;
@@ -184,7 +218,7 @@
 /* Ajustes para dispositivos móviles */
 @media (max-width: 992px) {
     .grilla {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         grid-template-areas:
             "nav"
             "header"
@@ -192,40 +226,53 @@
             "aside"
             "footer";
     }
-.horarios.subr{text-align: left;}
+
+    .horarios.subr {
+        text-align: left;
+    }
+
     .area {
         word-wrap: break-word;
         overflow: hidden;
-        padding: 20px; 
-        font-size: 16px; 
+        padding: 20px;
+        font-size: 16px;
     }
 }
+
 /* -Mobile */
 @media (max-width: 400px) {
-  .horarios.subr {text-align: left;}
-  .botones-lista {
-    flex-direction: column;
-    align-items:left;
-    font-size: 3px;
-}
-.botones-lista li button {
-    font-size: 17px;}
+    .horarios.subr {
+        text-align: left;
+    }
+
+    .botones-lista {
+        flex-direction: column;
+        align-items: left;
+        font-size: 3px;
+    }
+
+    .botones-lista li button {
+        font-size: 17px;
+    }
 
 }
 
-.visit{text-align: center;}
+.visit {
+    text-align: center;
+}
+
 /* FIN GRILLA */
 
 /* Estilos para la imagen en general */
 .visita {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
 }
 
 
 @media only screen and (max-width: 600px) {
     .visita {
-        display: none; 
+        display: none;
     }
 }
 
@@ -247,7 +294,7 @@
     font-weight: none;
     text-decoration: underline;
     padding: 20px;
-}   
+}
 
 .visit {
     padding-left: 60px;
@@ -275,7 +322,7 @@
     font-size: 22px;
     font-family: fuente-boca;
     border: 3px solid white;
-    
+
 }
 
 
@@ -295,7 +342,9 @@
 }
 
 
-.d{ color: goldenrod;}
+.d {
+    color: goldenrod;
+}
 
 header .visit {
     display: flex;
@@ -315,7 +364,8 @@ header .visit ul li {
 }
 
 header .visit .images {
-    text-align: right;;
+    text-align: right;
+    ;
 }
 
 header .visit .images img {
@@ -329,7 +379,12 @@ header .visit .images img {
     font-size: 20px;
 }
 
-.comprar{border: 3px solid white; font-size: 20px; position:relative; right:-30%;}
+.comprar {
+    border: 3px solid white;
+    font-size: 20px;
+    position: relative;
+    right: -30%;
+}
 
 
 .botones-lista li button {
@@ -341,15 +396,19 @@ header .visit .images img {
 }
 
 .botones-lista li button:hover {
-    background-color:rgb(4, 4, 51);
+    background-color: rgb(4, 4, 51);
 }
 
-.grilla button:hover{ background-color: rgb(4, 4, 51); color: white; border: 3px solid white;}
+.grilla button:hover {
+    background-color: rgb(4, 4, 51);
+    color: white;
+    border: 3px solid white;
+}
 
 
 a:hover {
     background-color: goldenrod;
-    color:rgb(4, 4, 51)
+    color: rgb(4, 4, 51)
 }
 
 
@@ -424,39 +483,63 @@ a:hover {
 
 /* HOJA RESERVAS */
 
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    font-family: fuente-boca;
-    width: 100vw;
-    height: 100%;
-    color: rgb(4, 4, 51);
-    grid-template-areas:
-      "Partidos Partidos Partidos"
-      "Partidos-Inferiores Partidos-Inferiores Partidos-Inferiores"
-      "Pileta Basquet Estacionamiento";
-  }
-  
-  .Partidos { background-color: goldenrod;
-    grid-area: Partidos; }
-  
-  .Partidos-Inferiores { background-color: #F6E27F;
-    grid-area: Partidos-Inferiores; }
-  
-  .Pileta { grid-area: Pileta; background-color: #FFFD98; }
-  
-  .Basquet { grid-area: Basquet; background-color: #FFE66D;}
-  
-  .Estacionamiento { grid-area: Estacionamiento; background-color: #F1DB4B;}
-  
-
-
-.escudochico{width: 60px;}
-
-.inicio {
-    font-family: fuente-boca;
-    color: goldenrod;
-    font-size: 20px;
+.escudochico {
+    width: 60px;
 }
 
 
+.grilla2 {
+    display: grid;
+    color: rgb(4, 4, 51);
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    height: 600px;
+    background-color: goldenrod;
+    font-family: fuente-boca;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "Futbol Basquet"
+        "Inferiores Entranamientos"
+        "Estacionamiento Pileta"
+        ;
+}
+
+.grilla2 div:hover {
+    background-color: rgb(4, 4, 51);
+    color: white;
+    cursor:pointer;
+}
+
+.Futbol {
+    grid-area: Futbol;
+}
+
+.Basquet {
+    grid-area: Basquet;
+}
+
+.Inferiores {
+    grid-area: Inferiores;
+}
+
+.Femenino {
+    grid-area: Femenino;
+}
+
+.Estacionamiento {
+    grid-area: Estacionamiento;
+}
+
+.Pileta {
+    grid-area: Pileta;
+}
+
+.Entramientos {
+    grid-area: Entrenamientos;
+}
+
+.Futsal {
+    grid-area: Futsal;
+}
