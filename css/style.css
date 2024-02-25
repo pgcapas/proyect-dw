@@ -255,6 +255,22 @@
         font-size: 17px;
     }
 
+    .grilla2 div{
+        font-size: 20px;
+    }
+   
+    .grilla3 {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "pasos"
+        "formulario"
+            ;
+    }
+
+    .grilla3 h3 {font-size: 15px;}
+    .grilla3 ul li{font-size: 10px;}
+    .grilla3 p {   font-size: 10px; }
+
 }
 
 .visit {
@@ -494,7 +510,7 @@ a:hover {
     font-size: 30px;
     text-align: center;
     line-height: 200px;
-    height: 600px;
+    height: auto;
     background-color: goldenrod;
     font-family: fuente-boca;
     grid-template-columns: 1fr 1fr;
@@ -564,7 +580,7 @@ a:hover {
     grid-area: pasos;
 }
 
-.formu {
+.formulario {
     grid-area: formulario;
 }
 
