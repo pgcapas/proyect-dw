@@ -503,13 +503,13 @@ a:hover {
         "Futbol Basquet"
         "Inferiores Entranamientos"
         "Estacionamiento Pileta"
-        ;
+    ;
 }
 
 .grilla2 div:hover {
     background-color: rgb(4, 4, 51);
     color: white;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .Futbol {
@@ -536,10 +536,52 @@ a:hover {
     grid-area: Pileta;
 }
 
-.Entramientos {
-    grid-area: Entrenamientos;
+/* Hoja alta */
+
+.subs {
+    border: 3px solid white;
+    font-size: 20px;
+    position: relative;
+    right: -30%;
 }
 
-.Futsal {
-    grid-area: Futsal;
+.grilla3 {
+    display: grid;
+    color: rgb(4, 4, 51);
+    font-size: 30px;
+    text-align: left;
+    line-height: 200px;
+    height: 600px;
+    font-family: fuente-boca;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "pasos formulario"
 }
+
+
+.pasos {
+    grid-area: pasos;
+}
+
+.formu {
+    grid-area: formulario;
+}
+
+.lista-r {
+    list-style: circle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.aclra {
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: rgb(4, 4, 51);
+}
+
+.fuente{font-size: 15px;}
