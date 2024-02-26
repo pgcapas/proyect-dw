@@ -82,8 +82,6 @@
         font-size: 20px;
     }
 
-
-
 }
 
 
@@ -259,19 +257,8 @@
         font-size: 20px;
     }
    
-    .grilla3 {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "pasos"
-        "formulario"
-            ;
+      
     }
-
-    .grilla3 h3 {font-size: 15px;}
-    .grilla3 ul li{font-size: 10px;}
-    .grilla3 p {   font-size: 10px; }
-
-}
 
 .visit {
     text-align: center;
@@ -554,50 +541,30 @@ a:hover {
 
 /* Hoja alta */
 
-.subs {
-    border: 3px solid white;
-    font-size: 20px;
-    position: relative;
-    right: -30%;
+.titulof { background-color: rgb(16, 16, 168); 
+    width: 400px;
+    font-family: fuente-boca; color:goldenrod; font-size: 30px; text-align: center; }
+
+.formulario{background-color: goldenrod; width: 3500px;padding: 10px;}
+
+.form-control{width: 250px;}
+.domi{width: 400px;}
+
+.btn-primary{background-color: white; color: rgb(4, 4, 51);}
+.col-12 button:hover{background-color: rgb(4, 4, 51); color:white}
+
+.s{display: flex;}
+
+@media (max-width: 762px) {
+    .s {
+      display: block; }
+      .form-control{width: 350px}
+      .form-select{width: 350px;}
+      .domi{width: 350px;}
+    
+  }
+.formu2{font-size: 20px;color: rgb(4, 4, 51);}
+.linea{text-decoration: underline;}
+.form-check {
+    display: inline-block; 
 }
-
-.grilla3 {
-    display: grid;
-    color: rgb(4, 4, 51);
-    font-size: 30px;
-    text-align: left;
-    line-height: 200px;
-    height: 600px;
-    font-family: fuente-boca;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-        "pasos formulario"
-}
-
-
-.pasos {
-    grid-area: pasos;
-}
-
-.formulario {
-    grid-area: formulario;
-}
-
-.lista-r {
-    list-style: circle;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-}
-
-.aclra {
-    font-weight: bolder;
-    color: white;
-    font-style: italic;
-    font-size: 14px;
-    line-height: 1.5;
-    background-color: rgb(4, 4, 51);
-}
-
-.fuente{font-size: 15px;}

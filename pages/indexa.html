@@ -24,30 +24,117 @@
         </div>
     </nav>
 
-    <div>
-        <div class="grilla3">
-            <div class="pasos">
-                <h3>HACETE SOCIO DE BOCA</h3>
-                <ul class="lista-r">
+
+    <div class="s">
+        <div class="formulario">
+            <form class="row g-3 needs-validation" novalidate="">
+                <div>
+                    <label for="validationCustom01" class="form-label titulof">Formulario Registro Socio</label>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="" required="">
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" required="">
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="validationCustom02" required="">
+                </div>
+
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">Provincia</label>
+                    <select class="form-select" id="validationCustom04" required="">
+                        <option selected="" disabled="" value=""></option>
+                        <option>Buenos Aires</option>
+                        <option>Santa Fe</option>
+                        <option>Entre Rios</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">Ciudad</label>
+                    <select class="form-select" id="validationCustom04" required="">
+                        <option selected="" disabled="" value=""></option>
+                        <option>El Palomar</option>
+                        <option>Caseros</option>
+                        <option>San Martin</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label ">Domicilio</label>
+                    <input type="text" class="form-control domi" id="validationCustom02" required="">
+                </div>
+                <div>
+                    <label for="validationCustom04" class="form-label">Sexo</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Femenino
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked="">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Masculino
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Otro
+                        </label>
+                    </div>
+                </div>
+                <div>
                     <br>
-                    <br>
-                    <li>Completa el registro, segui los pasos y subi las imagenes de tu dni tal como te lo solicita la
-                        plataforma</li>
-                    <li>En un maximo de 48hs vas a recibir un email con tu numero de socio, el cual sera provisorio</li>
-                    <li>Una vez que hayas recibido el email, deberas venir a la bombonera para completar el registro y
-                        donde vas a poder retirar tu carnet</li>
+                    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">DNI Frente</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">DNI Frente</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+
+
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <div class="formu2">
+                <h3 class="linea">HACETE SOCIO DE BOCA</h3>
+                <ul>
+                    <li>Completa el registro, segui los pasos y subi las imagenes de tu dni tal como te lo
+                        solicita la plataforma</li>
+                    <li>En un maximo de 48hs vas a recibir un email con tu numero de socio, el cual sera
+                        provisorio</li>
+                    <li>Una vez que hayas recibido el email, deberas venir a la bombonera para completar el
+                        registro y donde vas a poder retirar tu carnet</li>
                 </ul>
-                <div class="reng aclra">
+                <br>
+                <div>
                     <p>
-                        *Te recordamos que una vez que te des de alta, ingresaras como socio adherente, podras acceder a
-                        todos los servicios del club, excepto la asistencia a los partidos. Dicha asistencia dependera
-                        del cupo adherente para cada partido, el cual es informado 2 dias antes del encuentro, en donde
-                        tendras que ingresar para reservar tu lugar.
+                        *Te recordamos que una vez que te des de alta, ingresaras como socio adherente, podras
+                        acceder a todos los servicios del club, excepto la asistencia a los partidos. Dicha asistencia
+                        dependera del cupo adherente para cada partido, el cual es informado 2 dias antes del encuentro,
+                        en donde tendras que ingresar para reservar tu lugar.
                     </p>
                     <p>
                         Para poder utilizar las intalaciones del club o participar de las actividades, deberas hacerlo
-                        con 48 hs de anticipacion y seran sin costo, excepto el uso de la pileta que tiene un copago de
-                        $1.500 por mes.
+                        con 48 hs de anticipacion y seran sin costo, excepto el uso de la pileta que tiene un
+                        copago de $1.500 por mes.
                     </p>
                     <p>
                         El costo de la membresia del socio adherente sera de $6.000 pesos mensuales
@@ -58,18 +145,10 @@
                 </div>
 
             </div>
-
-
-            <div class="formulario">
-
-
-                Pablo
-
-
-            </div>
         </div>
 
     </div>
+
 
 </body>
 
